@@ -22,9 +22,9 @@ This template aims to help individuals who want to start programming using TypeS
 
 ## 🗺️ Roadmap
 
-- [X] 🛠️ Build and Debug: Implement build and debug functionalities.
-- [ ] 📦 Commit and Push: Implement the commit and push workflow with Husky.
-- [ ] ⚙️ Environment: Configure and manage development environment variables.
+- [x] 🛠️ Build and Debug: Implement build and debug functionalities.
+- [x] 📦 Commit and Push: Implement the commit and push workflow with Husky.
+- [x] ⚙️ Environment: Configure and manage development environment variables.
 - [ ] 🧹 Lint and Prettier: Set up linting and code formatting using eslint and prettier.
 - [ ] ✅ Test: Implement tests mechanisms.
 - [ ] 🐳 Docker: Integrate Docker for containerization and deployment.
@@ -34,11 +34,13 @@ This template aims to help individuals who want to start programming using TypeS
 To get started with this TypeScript template, follow the steps below:
 
 1. Generate your own repository using this template:
-  - Click on the "Use this template" button on the repository page.
-  - Provide a name for your repository and customize any other settings as needed.
+
+- Click on the "Use this template" button on the repository page.
+- Provide a name for your repository and customize any other settings as needed.
+
 2. Clone the generated repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/GabrielBdeC/vscode-ts-template.git
    ```
 3. Install dependencies:
    ```bash
@@ -50,6 +52,6 @@ To get started with this TypeScript template, follow the steps below:
 
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please create an issue or submit a pull request. Please make sure to review our [Contributing Guidelines](CONTRIBUTING.md) before contributing.
 
-
 ## 📝 License
+
 This project is licensed under the [MIT License](LICENSE).

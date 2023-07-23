@@ -1,3 +1,5 @@
+import 'dotenv/config';
+
 export class Main {
   private value: string;
 
@@ -10,5 +12,5 @@ export class Main {
   }
 }
 
-const main = new Main('Hello, world!');
+const main = new Main(`Hello world, ${process.env['USER_NAME']}!`);
 console.log(main.getValue());
