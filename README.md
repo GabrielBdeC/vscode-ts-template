@@ -10,13 +10,16 @@
 
 ## 🎯 Objectives
 
-This template aims to help individuals who want to start programming using TypeScript. It is designed to be used with VSCode as the editor but can be adapted for any other IDE of your choice. It can serve as an example for any TypeScript project, including those using frameworks like Angular and NestJS.
+This template aims to help individuals who want to start programming using TypeScript. It is designed to be used with
+VSCode as the editor but can be adapted for any other IDE of your choice. It can serve as an example for any TypeScript
+project, including those using frameworks like Angular and NestJS.
 
 ## 🌟 Features
 
 - ✨ Ready-to-use configuration for formatting, linting, building, and testing TypeScript code.
 - 🔧 Utilizes Husky to run the configured tools before commits and pushes.
-- 🔀 Follows the commit conventional pattern (learn more at [conventionalcommits.org](https://www.conventionalcommits.org/en/v1.0.0-beta.4/)).
+- 🔀 Follows the commit conventional pattern (learn more at
+  [conventionalcommits.org](https://www.conventionalcommits.org/en/v1.0.0-beta.4/)).
 - 🔍 Ensure eslint, prettier, and no-loops lint patterns.
 - 🐳 Docker support for building and development.
 
@@ -25,7 +28,7 @@ This template aims to help individuals who want to start programming using TypeS
 - [x] 🛠️ Build and Debug: Implement build and debug functionalities.
 - [x] 📦 Commit and Push: Implement the commit and push workflow with Husky.
 - [x] ⚙️ Environment: Configure and manage development environment variables.
-- [ ] 🧹 Lint and Prettier: Set up linting and code formatting using eslint and prettier.
+- [x] 🧹 Lint and Prettier: Set up linting and code formatting using eslint and prettier.
 - [ ] ✅ Test: Implement tests mechanisms.
 - [ ] 🐳 Docker: Integrate Docker for containerization and deployment.
 
@@ -50,7 +53,8 @@ To get started with this TypeScript template, follow the steps below:
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please create an issue or submit a pull request. Please make sure to review our [Contributing Guidelines](CONTRIBUTING.md) before contributing.
+Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please create an issue or submit a
+pull request. Please make sure to review our [Contributing Guidelines](CONTRIBUTING.md) before contributing.
 
 ## 📝 License
 

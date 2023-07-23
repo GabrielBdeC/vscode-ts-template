@@ -1,6 +1,6 @@
 {
   "name": "vscode-ts-template",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Template for typescript with configuration with vscode",
   "author": {
     "name": "GabrielBdeC"
@@ -12,6 +12,10 @@
     "outDir": "dist"
   },
   "scripts": {
+    "prepare": "husky install",
+    "format": "prettier --config .prettierrc.json 'src/**/*.ts' --write",
+    "lint": "eslint --ext .ts src",
+    "lint:fix": "yarn run format && yarn run lint --fix",
     "prebuild": "rimraf dist",
     "build": "tsc",
     "start": "ts-node-dev --respawn src/main.ts",
@@ -27,9 +31,17 @@
     "@commitlint/config-conventional": "^17.6.7",
     "@tsconfig/recommended": "^1.0.2",
     "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.1.0",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-prettier": "^5.0.0",
     "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "prettier": "^3.0.0",
     "rimraf": "^5.0.1",
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",

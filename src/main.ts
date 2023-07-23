@@ -12,5 +12,7 @@ export class Main {
   }
 }
 
-const main = new Main(`Hello world, ${process.env['USER_NAME']}!`);
+const name = process.env['USER_NAME'];
+
+const main = new Main(`Hello world${name ? `, ${name}` : ''}!`);
 console.log(main.getValue());

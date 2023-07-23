@@ -1,0 +1,3 @@
+{
+  "src/**/*.{ts}": ["prettier --config .prettierrc.json 'src/**/*.ts' --write", "eslint --ext .ts src --fix"]
+}
