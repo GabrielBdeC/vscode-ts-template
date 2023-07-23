@@ -29,7 +29,7 @@ project, including those using frameworks like Angular and NestJS.
 - [x] 📦 Commit and Push: Implement the commit and push workflow with Husky.
 - [x] ⚙️ Environment: Configure and manage development environment variables.
 - [x] 🧹 Lint and Prettier: Set up linting and code formatting using eslint and prettier.
-- [ ] ✅ Test: Implement tests mechanisms.
+- [x] ✅ Test: Implement tests mechanisms.
 - [ ] 🐳 Docker: Integrate Docker for containerization and deployment.
 
 ## 🚀 Getting Started
