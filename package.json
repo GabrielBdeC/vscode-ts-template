@@ -1,0 +1,30 @@
+{
+  "name": "vscode-ts-template",
+  "version": "0.0.1",
+  "description": "Template for typescript with configuration with vscode",
+  "author": {
+    "name": "GabrielBdeC"
+  },
+  "license": "MIT",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "directories": {
+    "outDir": "dist"
+  },
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc",
+    "start": "ts-node-dev --respawn src/main.ts",
+    "start:dev": "ts-node-dev --transpile-only --respawn src/main.ts",
+    "start:debug": "ts-node-dev --transpile-only --respawn --inspect=7001 src/main.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2",
+    "@types/node": "^20.4.4",
+    "rimraf": "^5.0.1",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  }
+}

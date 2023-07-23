@@ -1,0 +1,24 @@
+# OS and Editor files
+.DS_Store
+Thumbs.db
+
+# Build output
+/dist/
+
+# Dependency directories
+/node_modules/
+
+# TypeScript specific
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build cache
+.npm/
+.pnpm/
+.yarn/
+
